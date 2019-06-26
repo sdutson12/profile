@@ -1,0 +1,96 @@
+  /*font-family: 'Open Sans', sans-serif;*/
+body {
+  color: 21294E;
+  background-color: #EDEDED;
+font-family: 'Montserrat', sans-serif;
+line-height: 1.5;
+}
+h1 {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+}
+
+div {
+  width: 1000px;
+  margin: 15 auto;
+  background-color: white;
+  text-align: center;
+  box-shadow: 2px 2px 3px lightgray;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+h3 {
+ margin: 0;
+ font-size: 22px;
+}
+
+ul {
+  margin: 0;
+}
+
+a:visited {
+  color: 7D1523;
+}
+
+#text-no-underline {
+  text-decoration: none;
+  color: 7D1523;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkgray;
+}
+
+.img-circle {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.img-small {
+  height: 300px;
+  width: 300px;
+}
+
+.img-center {
+  background-position: center;
+  background-size: cover;
+}
+
+#list-inline li {
+  display: inline;
+  padding: 10px;
+  color: 7D1523;
+
+}
+
+.icon {
+  padding: 10px;
+  padding-inline-start: 0px;
+  font-size: 30px;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 400px;
+  }
+}
